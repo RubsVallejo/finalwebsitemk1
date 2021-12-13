@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Mai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap");
+
+body {
+  margin-top: 10px;
+}
+main {
+  font-family: "Yuji Syuku", serif;
+  background-color: forestgreen;
+  line-height: 2em;
+  padding-top: 200px;
+}
+#wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: black;
+  padding-top: 50px;
+}
+
+nav {
+  background-color: lightsteelblue;
+  padding-top: 60px;
+}
+
+nav ul {
+  text-align: center;
+  padding: 8px;
+}
+
+header img {
+  float: left;
+}
+
+nav li {
+  display: inline;
+  padding: 8px 10px;
+  border-radius: 3px;
+  background-color: linen;
+  padding: 8px 10px;
+  border-radius: 50px;
+}
+
+nav li:hover {
+  background-color: lightblue;
+}
+
+nav a:link {
+  color: rgb(255, 7, 7);
+}
+
+nav a:visited {
+  color: rgb(1, 164, 228);
+}
+
+nav :hover {
+  color: rgb(169, 16, 207);
+}
+
+nav a:active {
+  color: black;
+}
+
+.footer {
+  background: #061D25;
+  padding: 10px 0;
+}
+.footer a {
+  color: #70726F;
+  font-size: 20px;
+  padding: 10px;
+  border-right: 1px solid #70726F;
+  transition: all .5s ease;
+}
+.footer a:first-child {
+  border-left: 1px solid #70726F;
+}
+.footer a:hover {
+  color: white;
+}
+
+.container-fluid {
+  padding: 8px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.logo {
+  margin: 0 auto;
+  display: block;
+  background-color: transparent;
+}
+
+.icons {
+  text-align: center;
+  padding: 40px 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.fa {
+  color: aquamarine;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em;
+  }
+}
